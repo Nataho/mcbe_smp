@@ -9,12 +9,12 @@ even if addons(soon) are in here and it's also an experimental world! so some fe
 * You can Check the status of the server using this [Link](http://10.147.17.203:5500/index.html) **while connected to ZeroTier**
 
 #### Network ID
-        233ccaac2750a88e
+    233ccaac2750a88e
 * After connecting, go to minecraft and enter The IP address and Port of the server
 #### IP address
-        10.147.17.203
+    10.147.17.203
 #### Port
-        19132
+    19132
 * enjoy!
 * just don't forget to turn ZeroTier on if you're on iOS or Android.
 
