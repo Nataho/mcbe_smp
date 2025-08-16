@@ -1,4 +1,4 @@
-import {status} from "./status.js";
+import {status,players} from "./status.js";
 
 
 function get_status(text){
@@ -12,4 +12,9 @@ function get_status(text){
     }
 }
 
+function get_players(text){
+    text.innerHTML = "Players Online: " + players
+}
+
 get_status(document.getElementById('status'))
+get_players(document.getElementById('player count'))

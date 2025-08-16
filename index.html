@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minecraft Server Status</title>
+    <link rel="stylesheet" href="status/style.css">
 </head>
 <body>
-    <div>
-        <h1>Server Status..</h1>
-        <h1 id="status"></h1>
-        <p>Server Version: 1.12.101.1</p>
-        <p>Difficulty: Hard</p>
-    </div>
+    <main>
+        <section class="status-card">
+            <h1>Minecraft Server Status</h1>
+            <div id="status">Checking...</div>
+            <p class="server-info">Version: 1.12.101.1 | Difficulty: Hard</p>
+            <p id="player count">Players Online: Checking...</p>
+        </section>
 
-    <div>
-        <h2>
-            Github
-        </h2>
-        <a href="https://github.com/Nataho/mcbe_smp">GitHub Repository</a>
+        <section class="links">
+            <h2>Links</h2>
+            <p>Got ideas or feedback? We’d love to hear from you — send them here:</p>
+            <a href="https://github.com/Nataho/mcbe_smp" target="_blank">GitHub Repository</a>
+        </section>
+    </main>
 
-    </div>
-    
+    <script type="module" src="status/script.js"></script>
 </body>
 </html>
-<script type="module" src="status/script.js"></script>
-<link rel="stylesheet" href="status/den.css">

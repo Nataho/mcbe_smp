@@ -1,0 +1,83 @@
+/* GENERAL LAYOUT */
+body {
+    font-family: system-ui, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* STATUS CARD */
+.status-card {
+    background: rgba(255, 255, 255, 0.04);
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+.status-card h1 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+#status {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    display: inline-block;
+}
+
+/* SERVER INFO TEXT */
+.server-info {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+/* LINKS */
+.links {
+    text-align: center;
+}
+
+.links h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.links a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid #38bdf8;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.links a:hover {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    body {
+        padding: 1rem;
+    }
+}
