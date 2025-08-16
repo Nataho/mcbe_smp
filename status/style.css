@@ -52,9 +52,40 @@ main {
 
 /* LINKS */
 .links {
-    text-align: center;
     background: rgba(255, 255, 255, 0.04);
+    padding: 1.6rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
 }
+
+#link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    background: rgba(106, 219, 168, 0.05);
+    display: inline-block;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 20px; 
+}
+
+.btn:hover {
+    background: #000000;
+    color: #0f172a;
+}
+
+
 
 .links h2 {
     margin-bottom: 0.5rem;
