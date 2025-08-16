@@ -22,7 +22,7 @@ main {
 /* STATUS CARD */
 .status-card {
     background: rgba(255, 255, 255, 0.04);
-    padding: 1.5rem;
+    padding: 1.6rem;
     border-radius: 12px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -53,6 +53,7 @@ main {
 /* LINKS */
 .links {
     text-align: center;
+    background: rgba(255, 255, 255, 0.04);
 }
 
 .links h2 {
@@ -73,6 +74,10 @@ main {
 .links a:hover {
     background: #38bdf8;
     color: #0f172a;
+}
+.feedback{
+    font-size: 1.8rem;
+
 }
 
 /* RESPONSIVE */
